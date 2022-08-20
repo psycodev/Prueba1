@@ -1,18 +1,13 @@
 from Suma import Suma
+from resta import Resta
+from mullti import Multiplicar
+from division import Division
 
 print("por favor selecciona tu operacion:")
 print("1 - Suma")
 print("2- Resta")
 print("3 - Multiplicacion")
 print("4 - Division")
-
-def Multiplicar(num1, num2):
-    c = int(num1*num2)
-    w= print (" La multipliacion es igual a= ",c)
-    return (w)
-    
-def resta(num1, num2):
-    return num1-num2
 
 while True:
     opcion = input("Selecciona una de las opciones: 1 - 2 - 3 - 4  = \br")
@@ -22,11 +17,11 @@ while True:
         if opcion == '1':
              print("el resultado de la suma es: ",Suma(num1, num2))
         elif opcion == '2':
-            print("el resultado de la resta es : ", resta( num1, num2))
+            print("el resultado de la resta es : ", Resta(num1, num2))
         elif opcion =='3':
-             Multiplicar(num1,num2)
+             print("el resultado de la multiplicacion es : ", Multiplicar(num1,num2))
         elif opcion == '4':
-            print(division)            
+            print("el resultado de la division es : ", Division( num1, num2))           
 
 
 
