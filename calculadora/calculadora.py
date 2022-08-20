@@ -1,3 +1,4 @@
+from Suma import Suma
 
 print("por favor selecciona tu operacion:")
 print("1 - Suma")
@@ -19,7 +20,7 @@ while True:
         num1 = int(input("Ingresa el primer numero: "))
         num2 = int(input("ingresa el segundo numero: "))
         if opcion == '1':
-            print(suma)
+             print("el resultado de la suma es: ",Suma(num1, num2))
         elif opcion == '2':
             print("el resultado de la resta es : ", resta( num1, num2))
         elif opcion =='3':
