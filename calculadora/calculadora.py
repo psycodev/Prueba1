@@ -10,7 +10,7 @@ print("3 - Multiplicacion")
 print("4 - Division")
 
 while True:
-    opcion = input("Selecciona una de las opciones: 1 - 2 - 3 - 4  = \br")
+    opcion = input("Selecciona una de las opciones >> ")
     if opcion in ('1', '2', '3', '4'):
         num1 = int(input("Ingresa el primer numero: "))
         num2 = int(input("ingresa el segundo numero: "))
